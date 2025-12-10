@@ -17,7 +17,6 @@
   - [Coins & In-Game Store](#coins--in-game-store)
   - [Battlepass & Seasons](#battlepass--seasons)
   - [Games Catalog](#games-catalog)
-  - [Proxies & Cloak Mode](#proxies--cloak-mode)
   - [Discord Integration](#discord-integration)
 - [How to Deploy (Quick)](#how-to-deploy-quick)
 - [Recommended Hosting & Tips](#recommended-hosting--tips)
@@ -49,7 +48,7 @@ A fully featured leaderboard lets players submit screenshots and claim high scor
 
 ### Authentication (Supabase)
 
-We use Supabase Auth to keep login simple and stateless across our multiple links. This lets players remain logged in across mirror links and proxies without re-authenticating constantly.
+We use Supabase Auth to keep login simple and stateless across our multiple links.
 
 - Social logins and email/password available
 - Token-based sessions stored safely in secure cookies/local storage
@@ -78,14 +77,6 @@ A curated library of browser-friendly games (HTML5, WebGL, iframe wrappers for s
 - 250+ games sorted by category and popularity
 - Daily updates and featured games carousel
 - Search + filters (genre, multiplayer, new, trending)
-
-### Proxies & Cloak Mode
-
-DuckMath integrates multiple trusted   backends (holyunblocker, rammerhead, ultra violet web  ) so players can access content from networks that would otherwise block the target domains.
-
-- Pick different   backends to improve reach and reduce downtime
-- Cloak Mode: change your browser tab title and favicon to look like a classroom page (example: Google Classroom or about\:blank) for discreet browsing
-- Important: Use proxies responsibly and follow local rules and school policies.
 
 ### Discord Integration
 
