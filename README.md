@@ -73,7 +73,7 @@ Inspired by popular seasonal systems, DuckMath’s Battlepass runs in seasons (c
 
 ### Games Catalog
 
-A curated library of browser-friendly games (HTML5, WebGL, iframe wrappers for some remote hosts). Popular examples on the site include titles like _Omori Online (unblocked)_, _Deltarune Web_, and Roblox via now\.gg links.
+A curated library of browser-friendly games (HTML5, WebGL, iframe wrappers for some remote hosts). Popular examples on the site include titles like _Omori Online (online)_, _Deltarune Web_, and Roblox via now\.gg links.
 
 - 250+ games sorted by category and popularity
 - Daily updates and featured games carousel
@@ -101,22 +101,22 @@ We embed Discord chat using widgetbot.io so players can join in-site chat withou
 
 ---
 
-## How To Make a Unblocked Games Site (2025)
+## How To Make a online Games Site (2025)
 
-You can easily make your own unblocked website in school and get people to use it:
+You can easily make your own online website in school and get people to use it:
 
 1. Copy DuckMath.org Code (Fork the repository):
 
 go to https://github.com/duckmath/duckmath.github.io and click fork
 
-2. Clone the repository so you can make/change the unblocked site
+2. Clone the repository so you can make/change the online site
 
 ```bash
 git clone https://github.com/your-username/duckmath.git
 cd duckmath
 ```
 
-3. Run the unblocked games site locally for quick testing:
+3. Run the online games site locally for quick testing:
 
 ```bash
 npx serve
@@ -135,7 +135,7 @@ You dont even need to add the games! (they are added automatically!)
 ## Recommended Hosting & Tips
 
 - Use an edge/CDN backed host (Vercel, Cloudflare Pages, Netlify) to keep latency low for players in different regions.
-- Make sure you dont say unblocked games or games anywhere in the site, that will make goguardian block it!
+- Make sure you dont say online games or games anywhere in the site, that will make goguardian block it!
 - Use a lightweight serverless function when you need to   auth or handle leaderboard submissions.
 
 ## Security & Privacy
